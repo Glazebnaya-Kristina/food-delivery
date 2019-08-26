@@ -3,8 +3,9 @@
 
 
 .button{
+  position: relative;
   width: 100%;
-  padding: 20px 0;
+  padding: 20px 15px;
   color: #fff;
   text-align: center;
   border: none;
@@ -23,3 +24,16 @@
 .button--big{
   padding: 25px 0;
  }
+
+.button__span{
+  padding-top: 5px;
+  display: block;
+  font-size: 18px;
+}
+
+.button--download{
+  padding-left: 95px;
+  padding-right: 40px;
+  text-align: left;
+  font-size: 12px;
+}

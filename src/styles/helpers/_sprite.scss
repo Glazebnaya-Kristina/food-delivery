@@ -2,17 +2,10 @@
 	background: url("../icons/sprite.svg") no-repeat;
 }
 
-%-svg-icon-ok {
+%-svg-icon-app {
 	@extend %svg-common;
 	background-position: 0 0;
-	width: 10.8px;
-	height: 18px;
-}
-
-%-svg-icon-vk {
-	@extend %svg-common;
-	background-position: 0 98.64094695309076%;
-	width: 19.2px;
-	height: 10.752px;
+	width: 29px;
+	height: 32px;
 }
 

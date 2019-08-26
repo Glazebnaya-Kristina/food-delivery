@@ -1,0 +1,13 @@
+@import '../../helpers/variables';
+@import '../../helpers/mixins';
+
+
+.icon{
+  position: absolute;
+}
+
+.icon--left{
+  left: 45px;
+  top: 50%;
+  transform: translateY(-50%);
+}
