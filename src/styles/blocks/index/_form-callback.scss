@@ -1,0 +1,14 @@
+@import '../../helpers/variables';
+@import '../../helpers/mixins';
+
+.form-callback{
+  max-width: 450px;
+}
+
+.form-callback__input{
+  margin-bottom: 15px;
+}
+
+.form-callback__button{
+  text-transform: uppercase;
+}

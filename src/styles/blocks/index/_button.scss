@@ -1,0 +1,17 @@
+@import '../../helpers/variables';
+@import '../../helpers/mixins';
+
+
+.button{
+  width: 100%;
+  padding: 20px 0;
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-radius: 50px;
+  background-color: transparent;
+}
+
+.button--dark-blue{
+  background-color: #22233a;
+}

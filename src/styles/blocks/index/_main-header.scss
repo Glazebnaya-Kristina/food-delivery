@@ -1,0 +1,49 @@
+@import '../../helpers/variables';
+@import '../../helpers/mixins';
+
+.main-header{
+  padding-top: 45px;
+  padding-bottom: 310px;
+  color: #fff;
+  background-image: url($imageDir + "bg-header.jpg");
+  background-color: #3554ff;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-header__top{
+   display: flex;
+}
+
+.main-header__navigation{
+  margin-left: auto;
+  margin-top: 30px;
+}
+
+.main-header__banner{
+   position: relative;
+   margin-top: 160px;
+  &:after{
+    @include pseudo;
+    top: 0;
+    right: -15px;
+    width: 660px;
+    height: 470px;
+    background-image: url($imageDir + "banner-img.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+ }
+
+.main-header__title{
+  max-width: 510px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;;
+  font-size: 52px;
+}
+
+.main-header__subtitle{
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+

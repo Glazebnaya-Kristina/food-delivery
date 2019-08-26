@@ -1,0 +1,19 @@
+@import '../../helpers/variables';
+@import '../../helpers/mixins';
+
+.navigation{}
+
+.navigation__item{
+  &:not(:last-child){
+    margin-right: 75px;
+  }
+}
+
+.navigation__list{
+  display: flex;
+}
+
+.navigation__link{
+  font-size: 20px;
+  color: #fff;
+}
