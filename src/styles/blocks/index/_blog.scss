@@ -1,0 +1,17 @@
+@import '../../helpers/variables';
+@import '../../helpers/mixins';
+
+
+.blog{
+  padding: 50px 0;
+}
+
+.card__item{
+  max-width: 370px;
+}
+
+.blog__title{
+  margin-bottom: 45px;
+  font-size: 36px;
+  text-align: center;
+}
