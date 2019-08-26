@@ -2,16 +2,20 @@
 @import '../../helpers/mixins';
 
 .input{
-  padding: 15px 0;
+  padding: 15px;
   padding-left: 35px;
   max-width: 100%;
   width: 100%;
-  border: 1px solid #d5d5d5;
   border-radius: 50px;
+  border: none;
 }
 
 .input--big{
   padding: 30px;
   padding-left: 50px;
-  border: none;
 }
+
+.input--border{
+  border: 1px solid #d5d5d5;
+}
+

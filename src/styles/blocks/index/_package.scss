@@ -1,0 +1,66 @@
+@import '../../helpers/variables';
+@import '../../helpers/mixins';
+
+
+.package{
+  display: flex;
+  justify-content: center;
+}
+
+.package__item{
+  padding: 35px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 370px;
+  width: 100%;
+  border: 2px solid #226be2;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all .3s;
+  &:hover{
+    background-color: rgb(27,99,218);
+    background: linear-gradient(90deg, rgba(27,99,218,1) 0%, rgba(45,116,232,1) 32%, rgba(61,130,244,1) 67%, rgba(61,130,244,1) 100%);
+    box-shadow: 2px 2px 15px rgba(#000, .5);
+    .package__title{
+      color: #fff;
+    }
+    .package__price{
+      color: #fff;
+    }
+    .package__description{
+      color: #fff;
+    }
+    .package__period{
+      color: #fff;
+    }
+    .button--border{
+      color: #fff;
+      border: 2px solid #fff;
+    }
+  }
+}
+
+.package__title{
+  margin-bottom: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: #5d5d5d;
+}
+
+.package__price{
+  margin-bottom: 35px;
+  font-size: 36px;
+  color: #4085f6;
+}
+
+.package__period{
+  margin-bottom: 45px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.package__description{
+  margin-bottom: 30px;
+  color: #737373;
+}

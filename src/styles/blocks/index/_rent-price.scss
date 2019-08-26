@@ -1,0 +1,25 @@
+@import '../../helpers/variables';
+@import '../../helpers/mixins';
+
+
+.rent-price{
+  padding: 95px 0 65px;
+  background-color: #f8f6f6;
+}
+
+.rent-price__title{
+  margin-bottom: 65px;
+  font-size: 36px;
+  color: #5d5d5d;
+  text-align: center;
+}
+
+.rent-price__item{
+  &:not(:last-child){
+    margin-right: 35px;
+  }
+}
+
+.rent-price__package{
+  margin-bottom: 55px;
+}

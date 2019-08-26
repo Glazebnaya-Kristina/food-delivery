@@ -2,7 +2,7 @@
 @import '../../helpers/mixins';
 
 
-.button{
+.button {
   position: relative;
   width: 100%;
   padding: 20px 15px;
@@ -13,27 +13,47 @@
   background-color: transparent;
 }
 
-.button--dark-blue{
+.button--dark-blue {
   background-color: #22233a;
 }
 
-.button--uppercase{
+.button--blue {
+  background-color: #226be2;
+}
+
+.button--uppercase {
   text-transform: uppercase;
 }
 
-.button--big{
+.button--big {
   padding: 25px 0;
- }
+}
 
-.button__span{
+.button--medium {
+  max-width: 210px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-size: 15px;
+}
+
+.button__span {
   padding-top: 5px;
   display: block;
   font-size: 18px;
 }
 
-.button--download{
+.button--download {
   padding-left: 95px;
   padding-right: 40px;
   text-align: left;
   font-size: 12px;
+}
+
+.button--border {
+  color: #226be2;
+  border: 2px solid #226be2;
+}
+
+.button--small {
+  max-width: 210px;
 }

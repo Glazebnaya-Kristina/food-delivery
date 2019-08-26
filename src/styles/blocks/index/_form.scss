@@ -1,0 +1,27 @@
+@import '../../helpers/variables';
+@import '../../helpers/mixins';
+
+
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 40px 0;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: -1px 1px 10px rgba(#000, .1);
+}
+
+.form__label{
+  display: block;
+  max-width: 385px;
+  width: 100%;
+  &:not(:last-of-type){
+    margin-right: 10px;
+  }
+}
+
+.form__button{
+  margin-left: 20px;
+}
