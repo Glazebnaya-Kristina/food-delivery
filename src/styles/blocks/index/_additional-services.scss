@@ -1,0 +1,18 @@
+@import '../../helpers/variables';
+@import '../../helpers/mixins';
+
+
+.additional-services{
+  padding: 80px 0 50px;
+}
+
+.additional-services__title{
+  margin-bottom: 80px;
+}
+
+.additional-services__warning{
+  font-size: 16px;
+  font-weight: 600;
+  color: #226be2;
+  text-align: center;
+}

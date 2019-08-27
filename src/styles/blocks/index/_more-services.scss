@@ -1,0 +1,31 @@
+@import '../../helpers/variables';
+@import '../../helpers/mixins';
+
+.more-services{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.more-services__item{
+  position: relative;
+  max-width: 215px;
+  margin-bottom: 50px;
+  padding-top: 90px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #5d5d5d;
+  letter-spacing: -1px;
+  text-align: center;
+  &:after {
+    @include pseudo;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 70px;
+    background-image: url($imageDir + "network.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
