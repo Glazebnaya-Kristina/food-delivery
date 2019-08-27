@@ -1,0 +1,17 @@
+@import '../../helpers/variables';
+@import '../../helpers/mixins';
+
+
+
+.link{
+  display: block;
+  transition: all .3s;
+}
+
+.link--blue{
+  color: #226be2;
+  text-decoration: underline;
+  &:hover{
+    color: #2576ff;
+  }
+}

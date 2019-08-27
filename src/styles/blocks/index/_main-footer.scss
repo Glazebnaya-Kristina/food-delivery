@@ -4,4 +4,52 @@
 .main-footer {
   // Прижимаем футер к низу экрана
   margin-top: auto;
+  padding: 70px 0 0;
+  background-color: #f7f7f7;
 }
+
+
+.main-footer__title{
+  margin-bottom: 65px;
+}
+
+.main-footer__wrapper{
+  display: flex;
+  margin-bottom: 65px;
+}
+
+.main-footer__contacts-block{
+  margin-right: 100px;
+  padding: 65px 90px 70px;
+  background-color: #fff;
+}
+
+.main-footer__name-company{
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-footer__description{
+  margin-bottom: 55px;
+}
+
+.main-footer__name{
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #3b3b3b;
+}
+
+.main-footer__list {
+  padding-left: 20px;
+  list-style: decimal;
+  color: #226be2;
+}
+
+.main-footer__item{
+  font-size: 16px;
+  &:not(:last-child){
+    margin-bottom: 25px;
+  }
+}
+
+

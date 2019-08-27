@@ -1,0 +1,24 @@
+@import '../../helpers/variables';
+@import '../../helpers/mixins';
+
+
+.copyright{
+  padding: 60px 0 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #13253b;
+}
+
+.copyright__container{
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.copyright__contact{
+  display: flex;
+}
+
+.copyright__link{
+  margin-left: 5px;
+}
