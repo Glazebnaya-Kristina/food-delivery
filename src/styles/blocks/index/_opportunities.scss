@@ -1,0 +1,49 @@
+@import '../../helpers/variables';
+@import '../../helpers/mixins';
+
+
+.opportunities{
+  padding: 90px 0 50px;
+  color: #fff;
+  background-image: url($imageDir + "bg-opportunities.jpg");
+  background-color: #2970e4;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.opportunities__title{
+  margin-bottom: 140px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+.opportunities__advantages{
+  margin-bottom: 145px;
+}
+
+.opportunities__list{
+  padding-left: 20px;
+  list-style: decimal;
+}
+
+.opportunities__description{
+  max-width: 870px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+
+.opportunities__paragraph-name{
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.opportunities__item{
+  line-height: 28px;
+  font-size: 16px;
+  &:not(:last-child){
+    margin-bottom: 15px;
+  }
+}

@@ -2,62 +2,75 @@
 @import '../../helpers/mixins';
 
 
-
-.card{
+.card {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -10px;
 }
 
-.card__item{
+.card__item {
+  max-width: 370px;
   margin: 0 10px 20px;
 }
 
-.card__link{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.card__link {
+  display: block;
   height: 100%;
   padding: 0 25px 25px;
   background-color: #f7f8f9;
   border-radius: 10px;
   overflow: hidden;
   transition: all .3s;
-  &:hover{
+
+  &:hover {
     background-color: #226be2;
     box-shadow: 2px 2px 10px rgba(#000, .3);
-    .card__title{
+
+    .card__title {
       color: #fff;
     }
-    .card__description{
+
+    .card__description {
       color: #fff;
     }
-    .card__info{
+
+    .card__footer {
       color: #fff;
     }
   }
 }
 
-.card__img{
+.card__article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.card__img {
   max-width: none;
   margin: 0 -25px;
   margin-bottom: 25px;
 }
 
-.card__title{
+.card__title {
   margin-bottom: 15px;
   font-size: 22px;
   color: #212121;
 }
 
-.card__description{
+.card__body {
+  margin-top: auto;
+}
+
+.card__description {
   margin-bottom: 25px;
   font-size: 14px;
   line-height: 26px;
   color: #9fa3a7;
 }
 
-.card__info{
+.card__footer {
   display: flex;
   justify-content: space-between;
   font-family: 'Montserrat', sans-serif;
@@ -67,9 +80,10 @@
   text-transform: uppercase;
 }
 
-.card__view{
+.card__view {
   position: relative;
-  &:after{
+
+  &:after {
     @include pseudo;
     top: 0;
     left: -25px;

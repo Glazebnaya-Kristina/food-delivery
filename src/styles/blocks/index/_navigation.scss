@@ -4,8 +4,27 @@
 .navigation{}
 
 .navigation__item{
+  position: relative;
+  padding-bottom: 5px;
   &:not(:last-child){
     margin-right: 75px;
+  }
+
+  &:hover{
+    &:after{
+      width: 100%;
+      left: 0;
+    }
+  }
+
+  &:after{
+    @include pseudo;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: all .3s;
   }
 }
 

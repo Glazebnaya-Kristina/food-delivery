@@ -11,14 +11,21 @@
   border: none;
   border-radius: 50px;
   background-color: transparent;
+  transition: all .3s;
 }
 
 .button--dark-blue {
   background-color: #22233a;
+  &:hover{
+    background-color: #210862;
+  }
 }
 
 .button--blue {
   background-color: #226be2;
+  &:hover{
+    background-color: #0838e2;
+  }
 }
 
 .button--uppercase {
